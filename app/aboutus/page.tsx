@@ -21,7 +21,7 @@ const aboutus = () => {
       <section className="nav-padding w-full">
         <div className="flex-center relative min-h-[274px] w-full flex-col rounded-xl bg-cover bg-center text-center">
           <h1 className="smXheading1 heading2 mb-6 text-center text-gradient_blue-purple">
-            About Us
+            About LinkRoute
           </h1>
           <p className="text-white-800">
             Welcome to LinkRoute, your go-to solution for comprehensive and efficient redirect tracking! At LinkRoute, we understand the importance of managing and analyzing redirects for your links, and we're here to simplify the process.
