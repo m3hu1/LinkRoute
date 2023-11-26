@@ -1,26 +1,8 @@
-// "use client"
-
-// import RedirectTracker from "@/components/RedirectTracker";
-// import SearchForm from "@/components/SearchForm"
-// import React from "react";
-
-// export default function Home() {
-//   return (
-//     <main className="flex-center paddings mx-auto w-full max-w-screen-2xl flex-col">
-//       <section className="nav-padding w-full">
-//         <div className="flex-center relative min-h-[274px] w-full flex-col rounded-xl bg-banner bg-cover bg-center text-center">
-//           <h1 className="smXheading1 heading2 mb-6 text-center text-white">LinkRoute - Redirect Tracker</h1>
-//         </div>
-//         <RedirectTracker />
-//         <SearchForm />
-//       </section>
-//     </main>
-//   )
-// }
 "use client"
 import React, { useState } from "react";
 import RedirectTracker from "@/components/RedirectTracker";
 import SearchForm from "@/components/SearchForm";
+import Link from 'next/link';
 
 export default function Home() {
   const [redirectData, setRedirectData] = useState(null);
@@ -44,7 +26,6 @@ export default function Home() {
         </div>
         <SearchForm onSubmit={handleSearchFormSubmit} />
         <RedirectTracker redirectData={redirectData} />
-        {/* <SearchForm onSubmit={handleSearchFormSubmit} /> */}
       </section>
     </main>
   );
