@@ -44,7 +44,6 @@ export default function Home() {
         </div>
         <SearchForm onSubmit={handleSearchFormSubmit} />
         <RedirectTracker redirectData={redirectData} />
-        {/* <SearchForm onSubmit={handleSearchFormSubmit} /> */}
       </section>
     </main>
   );
