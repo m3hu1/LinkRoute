@@ -1,6 +1,6 @@
 # LinkRoute - Redirect Tracker
 
-Meet our Redirect Tracker - your virtual bodyguard against shady URLs! 🕵️‍♂️ Worried about getting bamboozled by sneaky redirects? Fear not! Our tracker's got your back, keeping tabs on every twist and turn a URL takes, like a trusty sidekick in the wild web. It spills the beans on each redirect in real-time, so you know exactly what you're getting into. No more surprises! Whether it's a harmless detour or a potential online booby trap, our Redirect Tracker spills the tea, making sure you reach your final destination unscathed. Stay savvy, stay safe with our Redirect Tracker!
+Meet LinkRoute - your virtual bodyguard against shady URLs! 🕵️‍♂️ Worried about getting bamboozled by sneaky redirects? Fear not! Our tracker's got your back, keeping tabs on every twist and turn a URL takes, like a trusty sidekick in the wild web. It spills the beans on each redirect in real-time, so you know exactly what you're getting into. No more surprises! Whether it's a harmless detour or a potential online booby trap, our Redirect Tracker spills the tea, making sure you reach your final destination unscathed. Stay savvy, stay safe with our Redirect Tracker!
 
 ## Getting Started
 
