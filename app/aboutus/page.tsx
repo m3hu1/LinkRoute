@@ -82,3 +82,5 @@ const aboutus = () => {
 };
 
 export default aboutus;
+
+// Path: LinkRoute/app/aboutus/index.tsx
