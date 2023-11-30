@@ -9,7 +9,9 @@ export default function Home() {
 
   const handleSearchFormSubmit = async (url: string) => {
     try {
-      const response = await fetch(`http://localhost:8000/check-redirects?url=${url}`);
+      // const response = await fetch(`https://x0p71us6d8.execute-api.ap-south-1.amazonaws.com/dev/check-redirects?url=${url}`);
+      // const response = await fetch(`http://localhost:8000/check-redirects?url=${url}`);
+      const response = await fetch(`http://3.6.86.116:8000/check-redirects?url=${url}`);
       const data = await response.json();
       setRedirectData(data);
     } catch (error) {
