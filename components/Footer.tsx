@@ -6,7 +6,7 @@ const Footer = () => {
       <p>Copyright © 2023 LinkRoute | All Rights Reserved</p>
 
       <div className="flex gap-x-9">
-        <Link href="/terms-of-use">Terms & Conditions</Link>
+        <Link href="/termsandconditions">Terms & Conditions</Link>
         <Link href="/privacy-policy">Privacy Policy</Link>
       </div>
     </footer>

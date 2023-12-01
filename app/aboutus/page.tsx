@@ -37,7 +37,7 @@ const aboutus = () => {
         </div>
         <br></br><br></br><br></br>
         <div>
-          <h1 className="smXheading1 heading2 mb-6 text-center text-gradient_blue-purple text-center">
+          <h1 className="smXheading1 heading2 mb-6 text-gradient_blue-purple text-center">
           What does it do?
           </h1>
           <h2 className="smXheading1 heading4 text-white-800 !font-bold text-center">
