@@ -60,6 +60,7 @@ const aboutus = () => {
           </p>
         </div>
         <br></br><br></br><br></br>
+        <div className='hidden sm:block'>
         <div>
           <h1 className="smXheading1 heading2 mb-6 text-center text-gradient_blue-purple">
             Our Team
@@ -75,6 +76,7 @@ const aboutus = () => {
               link={link as string}
             />
           ))}
+        </div>
         </div>
       </section>
     </main>
