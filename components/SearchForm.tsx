@@ -1,41 +1,5 @@
-// import { Input } from "./ui/input"
-// import Image from "next/image"
-// import { useState } from 'react';
+"use client";
 
-// const SearchForm = () => {
-//   // const handleKeyPress = (event) => {
-//   //   if (event.key === 'Enter') {
-//   //     onSearch(url);
-//   //   }
-//   // };
-
-//     return (
-//         <form className='flex-center mx-auto mt-10 w-full sm:-mt-10 sm:px-5'>
-//           <label className="flex-center relative w-full max-w-3xl">
-//             <Image 
-//               src="/magnifying-glass.svg"
-//               className="absolute left-8"
-//               width={32}
-//               height={32}
-//               alt="Search icon"
-//             />
-//             <Input 
-//               className="base-regular h-fit border-0 bg-black-400 py-6 pl-20 pr-8 text-white-800 !ring-0 !ring-offset-0 placeholder:text-white-800"
-//               type="text"
-//               placeholder="Enter URL"
-//               // value={url}
-//               // onChange={(e) => setUrl(e.target.value)}
-//               // onKeyPress={handleKeyPress}
-//             />
-//           </label>
-//         </form>
-//     )
-// }
-
-// export default SearchForm
-
-
-"use client"
 import React, { useState } from "react";
 import Image from "next/image";
 import { Input } from "./ui/input";
@@ -57,33 +21,30 @@ export default function SearchForm({ onSubmit }: SearchFormProps) {
   };
 
   return (
-    <form className='flex-center mx-auto mt-10 w-full sm:-mt-10 sm:px-5' onSubmit={handleSubmit}>
-      <label className="flex-center relative w-full max-w-3xl" htmlFor="urlInput">
-      <Image 
-        src="/magnifying-glass.svg"
-        className="absolute left-8"
-        width={32}
-        height={32}
-        alt="Search icon"
-      />
-      <Input
-        className="base-regular h-fit border-0 bg-black-400 py-6 pl-20 pr-8 text-white-800 !ring-0 !ring-offset-0 placeholder:text-white-800"
-        type="text"
-        placeholder="Enter URL"
-        id="urlInput"
-        value={urlInput}
-        onChange={handleInputChange}
-      />
-      {/* <input
-        className="base-regular h-fit border-0 bg-black-400 py-6 pl-20 pr-8 text-white-800 !ring-0 !ring-offset-0 placeholder:text-white-800"
-        type="text"
-        placeholder="Enter URL"
-        id="urlInput"
-        value={urlInput}
-        onChange={handleInputChange}
-      /> */}
+    <form
+      className="flex-center mx-auto mt-10 w-full sm:-mt-10 sm:px-5"
+      onSubmit={handleSubmit}
+    >
+      <label
+        className="flex-center relative w-full max-w-3xl"
+        htmlFor="urlInput"
+      >
+        <Image
+          src="/magnifying-glass.svg"
+          className="absolute left-8"
+          width={32}
+          height={32}
+          alt="Search icon"
+        />
+        <Input
+          className="base-regular h-fit border-0 bg-black-400 py-6 pl-20 pr-8 text-white-800 !ring-0 !ring-offset-0 placeholder:text-white-800"
+          type="text"
+          placeholder="Enter URL"
+          id="urlInput"
+          value={urlInput}
+          onChange={handleInputChange}
+        />
       </label>
-      {/* <button type="submit">Check Redirects</button> */}
     </form>
   );
 }

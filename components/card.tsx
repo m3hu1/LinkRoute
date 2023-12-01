@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import ReactMarkdown from "react-markdown";
 
 interface CardProps {
@@ -48,7 +47,7 @@ export default function Card({ title, description, link, large }: CardProps) {
               rel="noopener noreferrer"
               className="glow-effect-animate underline"
             >
-                GitHub
+              GitHub
             </a>
           )}
         </div>

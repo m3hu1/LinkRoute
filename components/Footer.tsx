@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
         <Link href="/privacy-policy">Privacy Policy</Link>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
