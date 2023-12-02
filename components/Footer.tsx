@@ -7,7 +7,7 @@ const Footer = () => {
 
       <div className="flex gap-x-9">
         <Link href="/termsandconditions">Terms & Conditions</Link>
-        <Link href="/privacy-policy">Privacy Policy</Link>
+        <Link href="/privacypolicy">Privacy Policy</Link>
       </div>
     </footer>
   );
