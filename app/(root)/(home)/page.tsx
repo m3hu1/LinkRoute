@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import RedirectTracker from "@/components/RedirectTracker";
 import SearchForm from "@/components/SearchForm";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const [redirectData, setRedirectData] = useState(null);
@@ -25,16 +26,24 @@ export default function Home() {
   };
 
   return (
-    <main className="flex-center paddings mx-auto w-full max-w-screen-2xl flex-col">
-      <section className="nav-padding w-full">
-        <div className="glow-effect flex-center relative min-h-[274px] w-full flex-col rounded-xl bg-banner bg-cover bg-center text-center">
-          <h1 className="smXheading1 heading2 mb-6 text-center text-white">
-            LinkRoute - Redirect Tracker
-          </h1>
-        </div>
-        <SearchForm onSubmit={handleSearchFormSubmit} />
-        <RedirectTracker redirectData={redirectData} />
-      </section>
-    </main>
+    <div className="flex flex-col min-h-screen">
+      <main className="flex-center paddings mx-auto w-full max-w-screen-2xl flex-col flex-grow">
+        <section className="nav-padding w-full">
+          <div className="glow-effect flex-center relative min-h-[274px] w-full flex-col rounded-xl bg-banner bg-cover bg-center text-center">
+            <h1 className="smXheading1 heading2 mb-6 text-center text-white">
+              <span className="hidden sm:inline">
+                LinkRoute - Redirect Tracker
+              </span>
+            </h1>
+            <h1 className="smXheading1 heading2 mb-6 text-center text-white">
+              <span className="sm:hidden">LinkRoute</span>
+            </h1>
+          </div>
+          <SearchForm onSubmit={handleSearchFormSubmit} />
+          <RedirectTracker redirectData={redirectData} />
+        </section>
+      </main>
+      <Footer />
+    </div>
   );
 }
