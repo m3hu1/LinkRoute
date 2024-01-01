@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
   title: 'LinkRoute',
@@ -13,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-black-100 font-poppins">{children}</body>
+      <body className="min-h-screen bg-black-100 font-poppins">
+        {children}
+        <Analytics />
+        </body>
     </html>
   )
 }
