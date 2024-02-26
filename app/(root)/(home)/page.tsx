@@ -15,7 +15,7 @@ export default function Home() {
       //   `https://linkrouteapi-66be0d9c6a6f.herokuapp.com/check-redirects?url=${url}`
       // );
       const response = await fetch(
-        `https://redirect-tracker.onrender.com/check-redirects?url=${url}`
+        `https://redirect-tracker-api.onrender.com/check-redirects?url=${url}`
       );
       const data = await response.json();
       setRedirectData(data);
