@@ -9,10 +9,12 @@ const Footer = () => {
       <p className="sm:hidden">© 2024 LinkRoute.</p>
 
       <div className="flex gap-x-9">
-        <Link href="/termsandconditions" className="hidden sm:inline">
+        <Link href="/" className="hidden sm:inline">
+        {/* <Link href="/termsandconditions" className="hidden sm:inline"> */}
           Terms & Conditions
         </Link>
-        <Link href="/privacypolicy" className="hidden sm:inline">
+        <Link href="/" className="hidden sm:inline">
+        {/* <Link href="/privacypolicy" className="hidden sm:inline"> */}
           Privacy Policy
         </Link>
       </div>

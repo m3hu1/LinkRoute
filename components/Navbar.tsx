@@ -11,7 +11,8 @@ const Navbar = () => {
         </Link>
         <ul className="flex-center gap-x-3 hidden md:flex md:gap-x-10">
           <li className="text-xl text-gradient_blue-purple !font-bold glow-effect">
-            <Link href="/aboutus">About Us</Link>
+            <Link href="/">About Us</Link>
+            {/* <Link href="/aboutus">About Us</Link> */}
           </li>
         </ul>
       </div>
