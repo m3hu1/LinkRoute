@@ -3,7 +3,7 @@ import './globals.css'
 import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
-  title: 'Qaution',
+  title: 'LinkRoute',
   description: 'Open Source Redirect Tracker',
 }
 

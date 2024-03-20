@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="flex-between mx-auto w-full max-w-screen-2xl px-6 xs:px-8 sm:px-16">
         <Link href="/">
           <div className="text-gradient_purple-blue !font-bold text-3xl glow-effect-animate">
-            Qaution
+            LinkRoute
           </div>
         </Link>
         <ul className="flex-center gap-x-3 hidden md:flex md:gap-x-10">
